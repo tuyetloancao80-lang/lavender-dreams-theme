@@ -1,0 +1,58 @@
+{
+    "name": "theme-lavender-dreams",
+    "version": "1.0.0",
+    "displayName": "Lavender Dreams Theme",
+    "description": "A gentle pastel theme inspired by twilight in a lavender field - soft, dreamy, and calming",
+    "publisher": "Lavender-Studio",
+    "license": "MIT",
+    "main": "app.js",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": ["Themes"],
+    "icon": "images/icon.png",
+    "activationEvents": [
+        "*"
+    ],
+    "keywords": [
+        "lavender-dreams",
+        "dark",
+        "theme",
+        "color-theme",
+        "pastel",
+        "purple",
+        "lavender",
+        "dreamy",
+        "soft",
+        "twilight",
+        "themes",
+        "night",
+        "stars"
+    ],
+    "galleryBanner": {
+        "color": "#2a2438",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lavender Dreams",
+                "uiTheme": "vs-dark",
+                "path": "./theme/lavender-dreams.json"
+            },
+            {
+                "label": "Lavender Dreams Soft",
+                "uiTheme": "vs-dark",
+                "path": "./theme/lavender-dreams-soft.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tuyetloancao80-lang/lavender-dreams-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/tuyetloancao80-lang/lavender-dreams-theme/issues"
+    },
+    "homepage": "https://github.com/tuyetloancao80-lang/lavender-dreams-theme#readme"
+}
